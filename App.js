@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Image Viewer</Text>
+      <Text style={styles.title}>Pick an image</Text>
       <Image
         source={{
           uri:
@@ -43,7 +43,7 @@ const App = () => {
       />
       {/* <Button color="black" title="Press me" onPress={() => Alert.alert("Hello World!")} /> */}
       <TouchableOpacity onPress={openImagePickerAsync} style={styles.button}>
-        <Text style={styles.buttonText}>Select file</Text>
+        <Text style={styles.buttonText}>Choose</Text>
       </TouchableOpacity>
     </View>
   );
