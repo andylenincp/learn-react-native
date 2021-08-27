@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
   Platform,
 } from "react-native";
-import image from "./assets/andy.png";
+import image from "./assets/montecristics.png";
 import * as ImagePicker from "expo-image-picker";
 import * as Sharing from "expo-sharing";
 import uploadToAnonymousFilesAsync from "anonymous-files";
