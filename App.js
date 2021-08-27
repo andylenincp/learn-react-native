@@ -48,6 +48,12 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Pick an image</Text>
+      <Text style={styles.paragraph}>What is Lorem Ipsum?</Text>
+      <Text style={styles.paragraph}>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </Text>
       <TouchableOpacity onPress={openImagePickerAsync}>
         <Image
           source={{
@@ -80,6 +86,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#292929",
   },
   title: { fontSize: 30, color: "white" },
+  paragraph: { fontSize: 15, color: "white", padding: 10 },
   image: {
     height: 200,
     width: 200,
